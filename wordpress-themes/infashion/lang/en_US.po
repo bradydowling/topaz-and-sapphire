@@ -1,0 +1,1054 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: inFashion (1.0.0)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-04-01 13:41+0700\n"
+"PO-Revision-Date: 2015-04-01 13:41+0700\n"
+"Last-Translator: ThemeWarrior <support@themewarrior.com>\n"
+"Language-Team: ThemeWarrior <support@themewarrior.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;gettext;_e\n"
+"X-Poedit-Basepath: ./\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../functions/redux\n"
+"X-Poedit-SearchPathExcluded-1: ../js\n"
+
+#: ../404.php:27
+msgid "Page Not Found !"
+msgstr ""
+
+#: ../404.php:32
+msgid ""
+"The page you are looking for is not available. The page may have been "
+"deleted or unpublished"
+msgstr ""
+
+#: ../comments.php:16
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: ../comments.php:21
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../comments.php:33
+msgid "No Comments"
+msgstr ""
+
+#: ../comments.php:33
+msgid "1 Comment"
+msgstr ""
+
+#: ../comments.php:33
+msgid "% Comments"
+msgstr ""
+
+#: ../comments.php:42
+msgid "&larr; Previous"
+msgstr ""
+
+#: ../comments.php:43
+msgid "Next &rarr;"
+msgstr ""
+
+#: ../comments.php:59
+msgid "<h4 class=\"widget-title\">LEAVE A COMMENT</h4>"
+msgstr ""
+
+#: ../comments.php:62 ../comments.php:71
+msgid "Submit"
+msgstr ""
+
+#: ../comments.php:63
+msgid "Cancel Reply"
+msgstr ""
+
+#: ../comments.php:64
+#, php-format
+msgid ""
+"You are logged in as <a href=\"%1$s\">%2$s</a> &#8212; <a href=\"%3$s"
+"\">Logout &raquo;</a>"
+msgstr ""
+
+#: ../comments.php:66
+msgid "Fullname"
+msgstr ""
+
+#: ../comments.php:67
+msgid "Email Address"
+msgstr ""
+
+#: ../comments.php:68
+msgid "Web URL"
+msgstr ""
+
+#: ../comments.php:70
+msgid "Message"
+msgstr ""
+
+#: ../content-audio.php:45 ../content-chat.php:54 ../content-gallery.php:43
+#: ../content-image.php:43 ../content-link.php:47 ../content-page.php:36
+#: ../content-status.php:43 ../content-video.php:44 ../content.php:43
+#: ../content.php:55
+msgid "Pages:"
+msgstr ""
+
+#: ../content-audio.php:69 ../content-chat.php:74 ../content-gallery.php:67
+#: ../content-image.php:67 ../content-link.php:71 ../content-status.php:67
+#: ../content-video.php:68 ../content.php:80
+msgid "Continue Reading"
+msgstr ""
+
+#: ../footer.php:62
+#, php-format
+msgid "Powered by %1$s. Designed by %2$s"
+msgstr ""
+
+#: ../footer.php:62
+msgid "WordPress"
+msgstr ""
+
+#: ../functions.php:109 ../functions/class-tgm-plugin-activation.php:164
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../functions.php:110 ../functions/class-tgm-plugin-activation.php:165
+msgid "Install Plugins"
+msgstr ""
+
+#: ../functions.php:111 ../functions/class-tgm-plugin-activation.php:166
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../functions.php:112
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../functions.php:123 ../functions/class-tgm-plugin-activation.php:178
+#: ../functions/class-tgm-plugin-activation.php:490
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../functions.php:124 ../functions/class-tgm-plugin-activation.php:179
+#: ../functions/class-tgm-plugin-activation.php:1846
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../functions.php:125
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:167
+msgid "Something went wrong."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:180
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:517
+#: ../functions/class-tgm-plugin-activation.php:2058
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:545
+#, php-format
+msgid "The following plugin was activated successfully: %s."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:704
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1091
+msgid "External Link"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1096
+msgid "Private Repository"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1099
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1103
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1106
+msgid "Required"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1106
+msgid "Recommended"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1109
+msgid "Not Installed"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1111
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1281
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1297
+msgid "Plugin"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1298
+msgid "Source"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1299
+msgid "Type"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1300
+msgid "Status"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1318
+msgid "Install"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1319
+msgid "Activate"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1829
+msgid "Install package not available."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1830
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1831
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1832
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1833
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1834
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1845
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1955
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1956
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1956
+#: ../functions/class-tgm-plugin-activation.php:1965
+msgid "Show Details"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1956
+#: ../functions/class-tgm-plugin-activation.php:1965
+msgid "Hide Details"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1957
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1962
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1963
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1964
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1965
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1966
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1967
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../functions/theme-functions/theme-functions.php:16
+#, php-format
+msgid "%s <span>Category Archives</span>"
+msgstr ""
+
+#: ../functions/theme-functions/theme-functions.php:18
+#, php-format
+msgid "%s <span>Tag Archives</span>"
+msgstr ""
+
+#: ../functions/theme-functions/theme-functions.php:20
+#, php-format
+msgid "%s <span>Taxonomy Archives</span>"
+msgstr ""
+
+#: ../functions/theme-functions/theme-functions.php:20
+msgid "Category"
+msgstr ""
+
+#: ../functions/theme-functions/theme-functions.php:22
+#, php-format
+msgid "%s <span>Daily Archives</span>"
+msgstr ""
+
+#: ../functions/theme-functions/theme-functions.php:24
+#, php-format
+msgid "%s <span>Monthly Archives</span>"
+msgstr ""
+
+#: ../functions/theme-functions/theme-functions.php:26
+#, php-format
+msgid "%s <span>Yearly Archives</span>"
+msgstr ""
+
+#: ../functions/theme-functions/theme-functions.php:29
+#, php-format
+msgid "%s <span>Author Archives</span>"
+msgstr ""
+
+#: ../functions/theme-functions/theme-functions.php:32
+#, php-format
+msgid "Search Results for: \"%s\""
+msgstr ""
+
+#: ../functions/theme-functions/theme-functions.php:34
+#, php-format
+msgid "No Results for: \"%s\""
+msgstr ""
+
+#: ../functions/theme-functions/theme-functions.php:37
+msgid "Not Found"
+msgstr ""
+
+#: ../functions/theme-functions/theme-functions.php:41
+msgid "Blog"
+msgstr ""
+
+#: ../functions/theme-functions/theme-functions.php:93
+msgid ""
+"Your comment is now awaiting moderation before it will appear on this post."
+msgstr ""
+
+#: ../functions/theme-functions/theme-functions.php:98
+msgid "Reply"
+msgstr ""
+
+#: ../functions/theme-functions/theme-functions.php:99
+msgid "<i class=\"fa fa-edit\"></i> Edit"
+msgstr ""
+
+#: ../functions/theme-functions/theme-functions.php:113
+msgid "Pingback"
+msgstr ""
+
+#: ../functions/theme-functions/theme-functions.php:120
+msgid "<i class=\"fa fa-edit\"></i> Edit Comment"
+msgstr ""
+
+#: ../functions/theme-functions/theme-functions.php:294
+#: ../includes/author-bio.php:20
+msgid "Written by"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:50
+msgid "General"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:55
+msgid "Tracking code"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:56
+msgid "Paste your Google Analytics (or other) tracking code here."
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:63
+msgid "Post settings"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:64
+msgid "Post common settings."
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:70
+msgid "Post excerpt length"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:81
+msgid "Display continue reading button"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:82
+msgid ""
+"Display continue reading button in homepage, category and archive pages."
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:89
+msgid "Post detail share buttons"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:90
+msgid "Display share buttons in post detail."
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:97
+msgid "Page detail share buttons"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:98
+msgid "Display share buttons in page post type."
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:105
+msgid "Display author box"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:106
+msgid "Display author description in post detail."
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:113
+msgid "Display comments"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:114
+msgid "Display comments in post detail."
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:121
+msgid "Display Instagram feed"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:122
+msgid "Display Instagram feed in footer."
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:131
+msgid "Appearance"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:136
+msgid "Logo type"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:137
+#, php-format
+msgid ""
+"Use site <a href=\"%s\" target=\"_blank\">title & desription</a> or use "
+"image logo."
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:138
+msgid "Site Title"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:138
+msgid "Image"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:147
+msgid "Image logo"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:149
+msgid "Upload your logo or type the URL on the text box."
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:156
+msgid "Favicon"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:159
+msgid "Upload your favicon."
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:166
+msgid "404 page image"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:167
+msgid "Preferred image size is 755x400 pixel."
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:176
+msgid "Custom CSS codes"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:179
+msgid ""
+"Type your custom CSS codes here, alternatively you can also write down you "
+"custom CSS styles on the custom.css file located on the theme root directory."
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:188
+msgid "Typography"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:193
+msgid "Site title"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:213
+msgid "Site description in logo"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:231
+msgid "Main body font"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:249
+msgid "Main menu font"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:271
+msgid "Title in slider"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:289
+msgid "Archive Post title"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:309
+msgid "Archive page title"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:329
+msgid "Title in singe post"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:348
+msgid "Single post section title"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:349
+msgid "Related posts, comments etc."
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:369
+msgid "Entry post meta"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:389
+msgid "Social media in page author"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:407
+msgid "Form field text"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:425
+msgid "Footer"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:443
+msgid "Heading H1 (Post & Page Title)"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:444
+#: ../functions/theme-functions/theme-options.php:465
+#: ../functions/theme-functions/theme-options.php:485
+#: ../functions/theme-functions/theme-options.php:508
+#: ../functions/theme-functions/theme-options.php:528
+#: ../functions/theme-functions/theme-options.php:548
+msgid "Also used for post & page title."
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:464
+msgid "Heading H2"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:484
+msgid "Heading H3"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:507
+msgid "Heading H4"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:527
+msgid "Heading H5"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:547
+msgid "Heading H6"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:570
+msgid "Colors"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:575
+msgid "Main link color"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:587
+msgid "Site title link color"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:599
+msgid "Link color title in slider"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:612
+msgid "Post Related Colors"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:613
+msgid "Post related color settings"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:619
+msgid "Post title"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:631
+msgid "Link post meta"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:643
+msgid "Link post meta in slider"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:655
+msgid "Primary button text color"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:667
+msgid "Primary button background color"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:687
+msgid "Primary button background hover color"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:707
+msgid "Primary button border"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:720
+msgid "Primary button hover border"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:733
+msgid "Text color button submit form"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:745
+msgid "Post tags text color "
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:757
+msgid "Sidebar widget title border"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:773
+msgid "About author widget link color"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:785
+msgid "Social media icons in author page"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:797
+msgid "Social network icon color in footer"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:809
+msgid "Back to top button color"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:821
+msgid "Link color in footer"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:834
+msgid "Header Color"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:835
+msgid "Header color settings"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:841
+msgid "Main menu bar background"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:861
+msgid "Sub menu background"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:881
+msgid "Sub menu border"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:897
+msgid "Main menu parent link color"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:909
+msgid "Main menu sub menu link color"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:922
+msgid "Background color"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:928
+msgid "Background button form"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:948
+msgid "Background button form hover"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:968
+msgid "Background back to top"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:988
+msgid "Background footer"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:1009
+msgid "Border color"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:1015
+msgid "Border button read more"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:1031
+msgid "Border button form"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:1050
+msgid "Social Networks"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:1055
+msgid "Author short description"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:1056
+msgid ""
+"Write a short description about your self and what you do. That way your "
+"blog readers could get to know you better."
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:1063
+msgid "Author avatar"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:1071
+msgid "Facebook profile"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:1072
+msgid "Your Facebook profile page."
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:1080
+msgid "Twitter profile"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:1081
+msgid "Your Twitter profile page."
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:1089
+msgid "Instagram profile"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:1090
+msgid "Your Instagram profile page."
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:1098
+msgid "Google+ profile"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:1099
+msgid "Your Google+ profile page."
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:1107
+msgid "Flickr profile"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:1108
+msgid "Your Flickr profile page."
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:1116
+msgid "LinkedIn profile"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:1117
+msgid "Your LinkedIn profile page."
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:1125
+msgid "Pinterest profile"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:1126
+msgid "Your Pinterest page."
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:1134
+msgid "YouTube profile"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:1135
+msgid "Your YouTube video page."
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:1143
+msgid "Vimeo profile"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:1144
+msgid "Your Vimeo video page."
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:1158
+msgid "Theme Information 1"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:1159
+#: ../functions/theme-functions/theme-options.php:1165
+msgid "<p>This is the tab content, HTML is allowed.</p>"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:1164
+msgid "Theme Information 2"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:1169
+msgid "<p>This is the sidebar content, HTML is allowed.</p>"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:1190
+#: ../functions/theme-functions/theme-options.php:1191
+msgid "Theme Options"
+msgstr ""
+
+#: ../functions/theme-functions/theme-options.php:1308
+msgid ""
+"<p>If you like this theme, please consider giving it a 5 star rating on "
+"ThemeForest. <a href=\"http://themeforest.net/downloads\" target=\"_blank"
+"\">Rate now</a> and <a href=\"http://www.themewarrior.com/purchase-"
+"confirmation/\" target=\"_blank\">confirm</a> your theme purchase.</p>"
+msgstr ""
+
+#: ../functions/theme-functions/theme-support.php:20
+msgid "Main Menu"
+msgstr ""
+
+#: ../functions/theme-functions/theme-widgets.php:14
+msgid "Sidebar"
+msgstr ""
+
+#: ../includes/pagination.php:20
+msgid "Previous Posts"
+msgstr ""
+
+#: ../includes/pagination.php:21
+msgid "Next Posts"
+msgstr ""
+
+#: ../includes/share-buttons.php:15
+msgid "Facebook Share"
+msgstr ""
+
+#: ../includes/share-buttons.php:15
+msgid "Facebook"
+msgstr ""
+
+#: ../includes/share-buttons.php:18
+msgid "Twitter Share"
+msgstr ""
+
+#: ../includes/share-buttons.php:18
+msgid "Twitter"
+msgstr ""
+
+#: ../includes/share-buttons.php:21
+msgid "Google+ Share"
+msgstr ""
+
+#: ../includes/share-buttons.php:21
+msgid "Google+"
+msgstr ""
+
+#: ../includes/share-buttons.php:24
+msgid "Pinterest Share"
+msgstr ""
+
+#: ../includes/share-buttons.php:24
+msgid "Pinterest"
+msgstr ""
+
+#: ../includes/widgets/warrior-about-author.php:23
+msgid "Display a author description, avatar and social network icons."
+msgstr ""
+
+#: ../includes/widgets/warrior-about-author.php:26
+msgid "Warrior About Author"
+msgstr ""
+
+#: ../includes/widgets/warrior-about-author.php:95
+msgid "About Me"
+msgstr ""
+
+#: ../includes/widgets/warrior-about-author.php:98
+#: ../includes/widgets/warrior-recent-posts.php:104
+#: ../includes/widgets/warrior-twitter.php:83
+msgid "Widget Title:"
+msgstr ""
+
+#: ../includes/widgets/warrior-about-author.php:101
+#, php-format
+msgid "The data taken from <a href=\"%s\" target=\"_blank\">Theme Options</a>."
+msgstr ""
+
+#: ../includes/widgets/warrior-recent-posts.php:23
+msgid "Display recent posts with thumbnails."
+msgstr ""
+
+#: ../includes/widgets/warrior-recent-posts.php:26
+msgid "Warrior Recent Posts"
+msgstr ""
+
+#: ../includes/widgets/warrior-recent-posts.php:101
+msgid "Recent Posts"
+msgstr ""
+
+#: ../includes/widgets/warrior-recent-posts.php:108
+msgid "Number of posts to show:"
+msgstr ""
+
+#: ../includes/widgets/warrior-recent-posts.php:112
+msgid "Post Title Limiter"
+msgstr ""
+
+#: ../includes/widgets/warrior-recent-posts.php:114
+msgid ""
+"The post title will be trim after reaching the number of characters defined."
+msgstr ""
+
+#: ../includes/widgets/warrior-recent-posts.php:117
+msgid "Post Excerpt Limiter"
+msgstr ""
+
+#: ../includes/widgets/warrior-recent-posts.php:119
+msgid ""
+"The post excerpt in the first post will be trim after reaching the number of "
+"characters defined."
+msgstr ""
+
+#: ../includes/widgets/warrior-twitter.php:23
+msgid "Warrior Twitter Tweets Widget"
+msgstr ""
+
+#: ../includes/widgets/warrior-twitter.php:26
+msgid "Warrior Twitter Tweets"
+msgstr ""
+
+#: ../includes/widgets/warrior-twitter.php:80
+msgid "Latest Tweets"
+msgstr ""
+
+#: ../includes/widgets/warrior-twitter.php:80
+msgid "Follow me on Twitter"
+msgstr ""
+
+#: ../includes/widgets/warrior-twitter.php:87
+msgid "Twitter Username:"
+msgstr ""
+
+#: ../includes/widgets/warrior-twitter.php:91
+msgid "Tweets Count:"
+msgstr ""
+
+#: ../includes/widgets/warrior-twitter.php:95
+msgid "Button Text:"
+msgstr ""
+
+#: ../includes/widgets/warrior-twitter.php:99
+msgid "Twitter Consumer key:"
+msgstr ""
+
+#: ../includes/widgets/warrior-twitter.php:103
+msgid "Twitter Consumer secret:"
+msgstr ""
+
+#: ../includes/widgets/warrior-twitter.php:106
+msgid ""
+"You can get Twitter consumer key & consumer secret by <a href=\"http://dev."
+"twitter.com\" target=\"_blank\">creating an app</a> on Twitter."
+msgstr ""
+
+#: ../includes/widgets/warrior-twitter.php:176
+msgid ""
+"Error: Can't fetch tweets, your Twitter account probably protected. Please "
+"unprotect your account."
+msgstr ""
+
+#: ../sidebar.php:19
+msgid ""
+"There's no widget assigned. You can start assigning widgets to \"Sidebar\" "
+"widget area from the <a href=\""
+msgstr ""
