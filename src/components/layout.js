@@ -10,7 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import TopazHeader from "./header-topaz"
-import "./layout.css"
+import "../styles/reset.css"
 import "../styles/style.css"
 
 const Layout = ({ children }) => {

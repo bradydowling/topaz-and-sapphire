@@ -11,14 +11,14 @@ const Post = ({ node }) => (
     </header>
 
     <div class="entry-meta">
-      <span>Written by <Link to={`author/${node.author.slug}/`}>node.author.name</Link></span>
+      <span>Written by <Link to={`author/${node.author.slug}/`}>{node.author.name}</Link></span>
       <span> / </span>
       <span><Link to={`category/${node.categories[0].slug}`} rel="category tag">{node.categories[0].name}</Link></span>
       <span> / </span>
       <span>{node.date}</span>
     </div>
 
-    <div class="thumbnail"><img src="http://topazandsapphire.com/wp-content/uploads/2019/02/780x1350xCute-Office-Spaces-780x1350.jpg.pagespeed.ic.uPWu2B-KXQ.jpg" class="attachment-blog-image size-blog-image wp-post-image" alt="" pagespeed_url_hash="688114786" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" scale="0" width="780" height="1350" /></div>
+    <div class="thumbnail"><img src={node.featured_media.source_url} class="attachment-blog-image size-blog-image wp-post-image" alt="" scale="0" height={node.featured_media.media_details.height} /></div>
 
     <div class="inner">
       <div class="entry-content">
@@ -48,23 +48,33 @@ export default IndexPage
 
 export const pageQuery = graphql`
   query {
-  allWordpressPost(sort: {fields: [date], order: DESC}) {
-    edges {
-      node {
-        title
-        excerpt
-        slug
-        date
-        categories {
-          name
+    allWordpressPost(sort: {fields: [date], order: DESC}) {
+      edges {
+        node {
+          title
+          excerpt
           slug
-        }
-        author {
-          slug
-          name
+          date
+          featured_media {
+            link
+            slug
+            type
+            media_details {
+              file
+              height
+            }
+            source_url
+          }
+          author {
+            slug
+            name
+          }
+          categories {
+            name
+            slug
+          }
         }
       }
     }
   }
-}
 `
