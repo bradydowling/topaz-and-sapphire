@@ -3,6 +3,16 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+const Logo = () => (
+  <div id="logo">
+    <Link to="/"><img src="http://www.topazandsapphire.com/wp-content/uploads/2015/11/Topaz-and-Sapphire-Header.png" alt="" scale="0" /></Link>
+  </div>
+)
+const Categories = ({ categories }) => (
+  <span>{categories.map((category) => (
+    <Link to={`category/${category.slug}`} rel="category tag">{category.name}</Link>
+  ))}</span>
+)
 const Post = ({ node }) => (
   <article id="post-1510" class="gallery post-detail blog-post hentry post-1510 post type-post status-publish format-gallery has-post-thumbnail category-abode category-career tag-career tag-home-office tag-office-spaces tag-study tag-women-who-work tag-work post_format-post-format-gallery">
     <header class="entry-header">
@@ -13,7 +23,7 @@ const Post = ({ node }) => (
     <div class="entry-meta">
       <span>Written by <Link to={`author/${node.author.slug}/`}>{node.author.name}</Link></span>
       <span> / </span>
-      <span><Link to={`category/${node.categories[0].slug}`} rel="category tag">{node.categories[0].name}</Link></span>
+      <Categories categories={node.categories} />
       <span> / </span>
       <span>{node.date}</span>
     </div>
@@ -33,11 +43,11 @@ const Post = ({ node }) => (
 const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" />
+    <Logo />
     <section id="primary" class="content-area site-main" role="main">
       <div id="post-list">
         {data.allWordpressPost.edges.map(({ node }) => (
-          <Post node={node}>
-          </Post>
+          <Post node={node} />
         ))}
       </div>
     </section>
