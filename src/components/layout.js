@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import TopazHeader from "./header-topaz"
+import InstaFeed from "./instagram-feed"
 import "../styles/reset.css"
 import "../styles/style.css"
 
@@ -38,6 +39,7 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
+        <InstaFeed username={"topazandsapphire"} />
         <footer>
           © {new Date().getFullYear()}, Built with
           {` `}
