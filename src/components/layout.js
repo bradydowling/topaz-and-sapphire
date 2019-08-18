@@ -9,9 +9,9 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
-import Header from "./header"
 import TopazHeader from "./header-topaz"
 import "./layout.css"
+import "../styles/style.css"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -28,7 +28,6 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.allWordpressSiteMetadata.edges[0].node.name} />
       <TopazHeader siteTitle={data.allWordpressSiteMetadata.edges[0].node.name} />
       <div
         style={{
