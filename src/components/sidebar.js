@@ -1,4 +1,3 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
@@ -27,12 +26,12 @@ const Sidebar = ({ siteTitle }) => (
         </div>
 
         <div class="social">
-          <a href="https://www.facebook.com/topazandsapphire" target="_blank"><i class="icon icon-social-facebook"></i></a>
-          <a href="http://twitter.com/topaznsapphire" target="_blank"><i class="icon icon-social-twitter"></i></a>
-          <a href="http://instagram.com/topazandsapphire" target="_blank"><i class="icon icon-social-instagram"></i></a>
-          <a href="https://www.pinterest.com/topaznsapphire/" target="_blank"><i class="icon icon-social-pinterest"></i></a>
-          <a href="https://www.youtube.com/channel/UCs-9lAUt57xgGGHswy2Yn9A/feed" target="_blank"><i class="icon icon-social-youtube"></i></a>
-          <a href="https://vimeo.com/latishacatch" target="_blank"><i class="icon icon-social-vimeo"></i></a>
+          <a href="https://www.facebook.com/topazandsapphire" target="_blank" rel="noopener noreferrer"><i class="icon icon-social-facebook"></i></a>
+          <a href="http://twitter.com/topaznsapphire" target="_blank" rel="noopener noreferrer"><i class="icon icon-social-twitter"></i></a>
+          <a href="http://instagram.com/topazandsapphire" target="_blank" rel="noopener noreferrer"><i class="icon icon-social-instagram"></i></a>
+          <a href="https://www.pinterest.com/topaznsapphire/" target="_blank" rel="noopener noreferrer"><i class="icon icon-social-pinterest"></i></a>
+          <a href="https://www.youtube.com/channel/UCs-9lAUt57xgGGHswy2Yn9A/feed" target="_blank" rel="noopener noreferrer"><i class="icon icon-social-youtube"></i></a>
+          <a href="https://vimeo.com/latishacatch" target="_blank" rel="noopener noreferrer"><i class="icon icon-social-vimeo"></i></a>
         </div>
       </div>
     </div><div id="widget-search-4" class="widget widget_search">
