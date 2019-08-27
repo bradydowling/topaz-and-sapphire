@@ -39,6 +39,7 @@ export const query = graphql`
     allWordpressPost(filter: { slug: { eq: $slug } }) {
       edges {
         node {
+          date
           title
           author {
             slug
