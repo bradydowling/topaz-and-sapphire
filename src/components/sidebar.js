@@ -39,7 +39,7 @@ const Sidebar = ({ siteTitle }) => (
     </div>
     <div id="widget-text-2" class="widget widget_text">
       <div class="textwidget">
-        <iframe src="https://www.bloglovin.com/v2/widget/follow?id=14377629" scrolling="no" class="bloglovin-widget-follow" style={{ border: "0px none", width: "100%", height: "254px" }}></iframe>
+        <iframe title="blog follow widget" src="https://www.bloglovin.com/v2/widget/follow?id=14377629" scrolling="no" class="bloglovin-widget-follow" style={{ border: "0px none", width: "100%", height: "254px" }}></iframe>
       </div>
     </div>
     <div id="widget-mc4wp_widget-3" class="widget widget_mc4wp_widget">
