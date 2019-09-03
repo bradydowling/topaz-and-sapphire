@@ -21,7 +21,7 @@ const Sidebar = ({ siteTitle }) => (
       <h4 class="widget-title">Hey Ya'll</h4>
       <div class="blocks site-info">
         <div class="info">
-          <p><img src="http://www.topazandsapphire.com/wp-content/uploads/2016/03/MG_7393.jpg" alt="" /></p>
+          <p><img src="http://topazandsapphire.com/wp-content/uploads/2016/03/MG_7393.jpg" alt="" /></p>
           <p>Topaz &amp; Sapphire is a space for millennial women created by two sisters who believe that women can have great careers while also building inspiring home lives. T&amp;S celebrates career, culture, and living well. You are a gem, life is what refines you! </p>
         </div>
 
@@ -39,7 +39,7 @@ const Sidebar = ({ siteTitle }) => (
     </div>
     <div id="widget-text-2" class="widget widget_text">
       <div class="textwidget">
-        <iframe title="blog follow widget" src="https://www.bloglovin.com/v2/widget/follow?id=14377629" scrolling="no" class="bloglovin-widget-follow" style={{ border: "0px none", width: "100%", height: "254px" }}></iframe>
+        <iframe title="blog follow widget" src="https://bloglovin.com/v2/widget/follow?id=14377629" scrolling="no" class="bloglovin-widget-follow" style={{ border: "0px none", width: "100%", height: "254px" }}></iframe>
       </div>
     </div>
     <div id="widget-mc4wp_widget-3" class="widget widget_mc4wp_widget">

@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Topaz and Sapphire`,
+    description: `Topaz & Sapphire is a space for millennial women created by two sisters who believe that women can have great careers while also building inspiring home lives. T&S celebrates career, culture, and living well. You are a gem, life is what refines you!`,
+    author: `@bradypdowling`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

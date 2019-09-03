@@ -37,6 +37,13 @@ const InstaImage = () => (
 const InstaImages = () => (
   <div id="sbi_images" style={{ padding: "3px" }}>
     <InstaImage />
+    <InstaImage />
+    <InstaImage />
+    <InstaImage />
+    <InstaImage />
+    <InstaImage />
+    <InstaImage />
+    <InstaImage />
   </div>
 )
 

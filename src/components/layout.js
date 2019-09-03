@@ -12,6 +12,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import TopazHeader from "./header-topaz"
 import Sidebar from "./sidebar"
 import InstaFeed from "./instagram-feed"
+import Footer from "./footer"
 import "../styles/reset.css"
 import "../styles/style.css"
 
@@ -42,11 +43,7 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         <Sidebar />
         <InstaFeed username={"topazandsapphire"} />
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+        <Footer />
       </div>
     </>
   )

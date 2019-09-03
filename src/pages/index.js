@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 
 const Logo = () => (
   <div id="logo">
-    <Link to="/"><img src="http://www.topazandsapphire.com/wp-content/uploads/2015/11/Topaz-and-Sapphire-Header.png" alt="" scale="0" /></Link>
+    <Link to="/"><img src="http://topazandsapphire.com/wp-content/uploads/2015/11/Topaz-and-Sapphire-Header.png" alt="" scale="0" /></Link>
   </div>
 )
 const Categories = ({ categories }) => (
