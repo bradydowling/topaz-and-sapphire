@@ -1,3 +1,20 @@
+## Topaz and Sapphire TODO
+
+1. Format things
+ - CSS for Instagram posts
+ - CSS for sidebar
+ - CSS for top nav
+1. Copy html/content for footer
+1. Make logo and sidebar images dynamic (not hardcoded)
+1. Create page nav component (at bottom of posts)
+1. Cut of total posts shown on front page
+1. Create a category page
+1. Create an author page
+1. Etc: styling, making things dynamic, split out components, code cleaning
+1. Move topazandsapphire to wordpress.com
+1. Get site running on Netlify
+1. Shut down EC2 instance
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
