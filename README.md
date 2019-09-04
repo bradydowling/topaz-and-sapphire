@@ -7,7 +7,6 @@
 1. Copy html/content for footer
 1. Make logo and sidebar images dynamic (not hardcoded)
 1. Create page number nav component (at bottom of posts page)
-1. Cut of total posts shown on front page
 1. Create other pages
  - Categories
  - Tags

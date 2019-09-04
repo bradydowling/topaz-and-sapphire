@@ -15,6 +15,7 @@ import InstaFeed from "./instagram-feed"
 import Footer from "./footer"
 import "../styles/reset.css"
 import "../styles/style.css"
+import "../styles/icomoon/style.css"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
