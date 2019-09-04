@@ -1,7 +1,19 @@
 import React from "react"
 import Layout from "../components/layout"
 import PostHeader from "../components/post-header"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
+
+const PostTags = ({ tags }) => (
+  <div className="post-tags">{tags.map((tag) => {
+    return (
+      <PostTag tag={tag} />
+    )
+  })}</div>
+)
+
+const PostTag = ({ tag }) => (
+  <Link to={`tag/${tag.name}`}>#{tag.name}</Link>
+)
 
 export default ({ data }) => {
   const post = data.allWordpressPost.edges[0].node;
@@ -11,7 +23,7 @@ export default ({ data }) => {
         <PostHeader node={post} />
         <div className="inner">
           <div className="entry-content" dangerouslySetInnerHTML={{ __html: post.content }} />
-          <div className="post-tags"><a href="http://topazandsapphire.com/tag/career/">#career</a> <a href="http://topazandsapphire.com/tag/home-office/">#home office</a> <a href="http://topazandsapphire.com/tag/office-spaces/">#office spaces</a> <a href="http://topazandsapphire.com/tag/study/">#study</a> <a href="http://topazandsapphire.com/tag/women-who-work/">#women who work</a> <a href="http://topazandsapphire.com/tag/work/">#work</a></div>
+          <PostTags tags={post.tags} />
           {/* Start: Share Buttons */}
           <div className="social social-sharing">
             <ul>
@@ -54,6 +66,10 @@ export const query = graphql`
             media_details {
               height
             }
+          }
+          tags {
+            name
+            link
           }
           content
         }
