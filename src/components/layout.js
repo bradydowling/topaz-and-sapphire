@@ -41,21 +41,14 @@ const Layout = ({ children }) => {
   return (
     <>
       <TopazHeader siteTitle={data.allWordpressSiteMetadata.edges[0].node.name} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0px 1.0875rem 1.45rem`,
-          paddingTop: 0,
-        }}
-      >
-        <Logo />
-        <div id="main-content">
-          <div className="container">
+      <Logo />
+      <div id="main-content">
+        <div className="container">
+          <section id="primary" class="content-area site-main" role="main">
             {children}
-          </div>
+          </section>
+          <Sidebar />
         </div>
-        <Sidebar />
         <InstaFeed username={"topazandsapphire"} />
         <Footer />
       </div>

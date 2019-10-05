@@ -38,13 +38,11 @@ const Post = ({ node }) => (
 const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" />
-    <section id="primary" class="content-area site-main" role="main">
-      <div id="post-list">
-        {data.allWordpressPost.edges.map(({ node }) => (
-          <Post node={node} />
-        ))}
-      </div>
-    </section>
+    <div id="post-list">
+      {data.allWordpressPost.edges.map(({ node }) => (
+        <Post node={node} />
+      ))}
+    </div>
   </Layout>
 )
 

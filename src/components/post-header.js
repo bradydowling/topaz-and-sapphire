@@ -6,7 +6,7 @@ const Categories = ({ categories }) => (
   <span>{categories.map((category, i) => {
     return (
       <Fragment>
-        <Link to={`category/${category.slug}`} rel="category tag">{category.name}</Link>{i < (categories.length - 1) ? ', ' : ''}
+        <Link to={`category/${category.slug}`} rel="category tag">{category.name}</Link>
       </Fragment>
     )
   })}</span>
