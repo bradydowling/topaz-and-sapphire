@@ -2,12 +2,8 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Categories from "../components/Post/Categories"
 
-const Categories = ({ categories }) => (
-  <span>{categories.map((category) => (
-    <Link to={`category/${category.slug}`} rel="category tag">{category.name}</Link>
-  ))}</span>
-)
 const Post = ({ node }) => (
   <article id="post-1510" class="gallery post-detail blog-post hentry post-1510 post type-post status-publish format-gallery has-post-thumbnail category-abode category-career tag-career tag-home-office tag-office-spaces tag-study tag-women-who-work tag-work post_format-post-format-gallery">
     <header class="entry-header">

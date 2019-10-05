@@ -1,15 +1,16 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import React, { Fragment } from "react"
+import React from "react"
+import Categories from "./Post/Categories"
 
-const Categories = ({ categories }) => (
-  <span>{categories.map((category, i) => {
-    return (
-      <Fragment>
-        <Link to={`category/${category.slug}`} rel="category tag">{category.name}</Link>{i < categories.length - 1 ? ', ' : ''}
-      </Fragment>
-    )
-  })}</span>
+const PostMeta = ({ node }) => (
+  <div class="entry-meta">
+    <span>Written by <Link to={`author/${node.author.slug}/`}>{node.author.name}</Link></span>
+    <span> / </span>
+    <Categories categories={node.categories} />
+    <span> / </span>
+    <span>{node.date}</span>
+  </div>
 )
 
 const PostHeader = ({ node }) => (
@@ -19,13 +20,7 @@ const PostHeader = ({ node }) => (
       <h3 class="post-title"><Link to={node.slug}>{node.title}</Link></h3>
     </header>
 
-    <div class="entry-meta">
-      <span>Written by <Link to={`author/${node.author.slug}/`}>{node.author.name}</Link></span>
-      <span> / </span>
-      <Categories categories={node.categories} />
-      <span> / </span>
-      <span>{node.date}</span>
-    </div>
+    <PostMeta node={node} />
 
     <div class="thumbnail">
       <img src={node.featured_media.source_url} class="attachment-blog-image size-blog-image wp-post-image" alt="" scale="0" height={node.featured_media.media_details.height} />
