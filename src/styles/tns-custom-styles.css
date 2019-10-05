@@ -1,0 +1,10 @@
+#logo {
+  margin: 20px 0 10px 0 !important;
+}
+#main-content p > a {
+  color: #c99000;
+}
+#main-content p > a:hover {
+  color: #c99000;
+  text-decoration: underline !important;
+}
