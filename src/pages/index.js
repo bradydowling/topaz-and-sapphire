@@ -3,11 +3,6 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const Logo = () => (
-  <div id="logo">
-    <Link to="/"><img src="http://topazandsapphire.com/wp-content/uploads/2015/11/Topaz-and-Sapphire-Header.png" alt="" scale="0" /></Link>
-  </div>
-)
 const Categories = ({ categories }) => (
   <span>{categories.map((category) => (
     <Link to={`category/${category.slug}`} rel="category tag">{category.name}</Link>
@@ -43,7 +38,6 @@ const Post = ({ node }) => (
 const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" />
-    <Logo />
     <section id="primary" class="content-area site-main" role="main">
       <div id="post-list">
         {data.allWordpressPost.edges.map(({ node }) => (

@@ -7,7 +7,7 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import { Link, useStaticQuery, graphql } from "gatsby"
 
 import TopazHeader from "./header-topaz"
 import Sidebar from "./sidebar"
@@ -18,6 +18,12 @@ import "../styles/style.css"
 import "../styles/icomoon/style.css"
 import "../styles/tns-custom-styles.css"
 import "../styles/tns-inline-styles.css"
+
+const Logo = () => (
+  <div id="logo">
+    <Link to="/"><img src="http://topazandsapphire.com/wp-content/uploads/2015/11/Topaz-and-Sapphire-Header.png" alt="" scale="0" /></Link>
+  </div>
+);
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -43,7 +49,12 @@ const Layout = ({ children }) => {
           paddingTop: 0,
         }}
       >
-        <main>{children}</main>
+        <Logo />
+        <div id="main-content">
+          <div className="container">
+            {children}
+          </div>
+        </div>
         <Sidebar />
         <InstaFeed username={"topazandsapphire"} />
         <Footer />
