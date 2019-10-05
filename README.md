@@ -1,10 +1,7 @@
 ## Topaz and Sapphire TODO
 
-1. Format things
- - CSS for Instagram posts
- - CSS for sidebar
- - CSS for top nav
-1. Copy html/content for footer
+1. Get Insta posts loading
+1. Get front page images scaled
 1. Make logo and sidebar images dynamic (not hardcoded)
 1. Create page number nav component (at bottom of posts page)
 1. Create other pages

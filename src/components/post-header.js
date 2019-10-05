@@ -6,14 +6,14 @@ const Categories = ({ categories }) => (
   <span>{categories.map((category, i) => {
     return (
       <Fragment>
-        <Link to={`category/${category.slug}`} rel="category tag">{category.name}</Link>
+        <Link to={`category/${category.slug}`} rel="category tag">{category.name}</Link>{i < categories.length - 1 ? ', ' : ''}
       </Fragment>
     )
   })}</span>
 )
 
 const PostHeader = ({ node }) => (
-  <div>
+  <article id="post-1510" class="gallery post-detail blog-post hentry post-1510 post type-post status-publish format-gallery has-post-thumbnail category-abode category-career tag-career tag-home-office tag-office-spaces tag-study tag-women-who-work tag-work post_format-post-format-gallery">
     <header class="entry-header">
       <div class="post-icon"><i class="icon icon-image"></i></div>
       <h3 class="post-title"><Link to={node.slug}>{node.title}</Link></h3>
@@ -30,7 +30,7 @@ const PostHeader = ({ node }) => (
     <div class="thumbnail">
       <img src={node.featured_media.source_url} class="attachment-blog-image size-blog-image wp-post-image" alt="" scale="0" height={node.featured_media.media_details.height} />
     </div>
-  </div>
+  </article>
 )
 
 PostHeader.propTypes = {
