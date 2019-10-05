@@ -16,6 +16,7 @@ import Footer from "./footer"
 import "../styles/reset.css"
 import "../styles/style.css"
 import "../styles/icomoon/style.css"
+import "../styles/tns-inline-styles.css"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
