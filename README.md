@@ -1,14 +1,13 @@
 ## Topaz and Sapphire TODO
 
 ### Improve Gatsby
-1. Get different insta posts
- - Statically
- - Dynamically
 1. Create other pages
  - Categories
  - Tags
  - Author
-1. Style insta posts to scale right
+1. Get different insta posts
+ - Dynamically
+1. Style insta posts to scale right (css-grid: min-width 83px, 3px padding)
 1. Make logo and sidebar images dynamic (not hardcoded)
 1. Create page number nav component (at bottom of posts page)
 

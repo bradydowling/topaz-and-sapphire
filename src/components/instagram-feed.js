@@ -26,31 +26,30 @@ const InstaImage = ({ imgLink }) => (
         backgroundImage: `url('${imgLink}')`,
         backgroundSize: "cover",
         backgroundPosition: "center center",
-        backgroundRepeat: "no-repeat",
-        height: "127px"
+        backgroundRepeat: "no-repeat"
       }}>
-        <img src={`${imgLink}`} alt="When you’re a freelancer or someone who works from home it’s important to get out of your PJs and venture off the couch once in a while. It’s amazing what a change of scenery can do for your productivity and creativity! We love this little #coffeeshop @sdamiani captured in #newyorknewyork! #wework #workfromhome #womenwhowork #career" scale="0" width="200" height="200" />
+        <img src={imgLink} alt="When you’re a freelancer or someone who works from home it’s important to get out of your PJs and venture off the couch once in a while. It’s amazing what a change of scenery can do for your productivity and creativity! We love this little #coffeeshop @sdamiani captured in #newyorknewyork! #wework #workfromhome #womenwhowork #career" scale="0" width="200" height="200" />
       </a>
     </div>
   </div>
 )
 
 const InstaImages = () => (
-  <div id="sbi_images" style={{ padding: "3px" }}>
-    <InstaImage imgLink={'https://scontent.cdninstagram.com/vp/adab2097d315b0231874874d22fe1c79/5E22BF36/t51.2885-15/e35/s320x320/51880722_547241645759490_4445104620470738808_n.jpg?_nc_ht=scontent.cdninstagram.com'} />
-    <InstaImage imgLink={'https://scontent.cdninstagram.com/vp/0fb42d576bdb91f3f07ff7ec9c4b1835/5E37EAE8/t51.2885-15/e35/p320x320/50909192_257831831781164_4960194446628595626_n.jpg?_nc_ht=scontent.cdninstagram.com'} />
-    <InstaImage imgLink={'https://scontent.cdninstagram.com/vp/5589c732d39f5924b3391bfce7ffdf6a/5E37B97F/t51.2885-15/e35/s320x320/49492353_304458466870020_6723443648692197093_n.jpg?_nc_ht=scontent.cdninstagram.com'} />
-    <InstaImage imgLink={'https://scontent.cdninstagram.com/vp/a6690212a41518f6045d4d3aea3d5e80/5E26ABDE/t51.2885-15/e35/s320x320/45857476_210907723154448_6156869855291699135_n.jpg?_nc_ht=scontent.cdninstagram.com'} />
-    <InstaImage imgLink={'https://scontent.cdninstagram.com/vp/5c867f6ef09b2b50373d078b5be453fb/5E2FDCE9/t51.2885-15/e35/p320x320/49380789_370482100180577_628094579137821647_n.jpg?_nc_ht=scontent.cdninstagram.com'} />
-    <InstaImage imgLink={'https://scontent.cdninstagram.com/vp/f03bf0fb75fc0763fc87b2cd86bd2db4/5E1C7511/t51.2885-15/e35/s320x320/47690203_782902575395131_888321466823278747_n.jpg?_nc_ht=scontent.cdninstagram.com'} />
-    <InstaImage imgLink={'https://scontent.cdninstagram.com/vp/224ea372a69281b58a8afd30d80ee480/5E1E4EF0/t51.2885-15/e35/s320x320/47690527_330066334494247_6733645215720013800_n.jpg?_nc_ht=scontent.cdninstagram.com'} />
-    <InstaImage imgLink={'https://scontent.cdninstagram.com/vp/c3a12509efff6b2471099cb1b0460b79/5E37B85B/t51.2885-15/e35/p320x320/46911439_1164307900405137_6137647825726054042_n.jpg?_nc_ht=scontent.cdninstagram.com'} />
-    <InstaImage imgLink={'https://scontent.cdninstagram.com/vp/2f41412346364bf745ca012d5be89ff5/5E334368/t51.2885-15/e35/s320x320/46647879_385396728863426_1980037455888903992_n.jpg?_nc_ht=scontent.cdninstagram.com'} />
-    <InstaImage imgLink={'https://scontent.cdninstagram.com/vp/71fb2b4cefad75b68335a115c61649b5/5E326E8F/t51.2885-15/e35/p320x320/47163228_306281893429060_6690633157207529460_n.jpg?_nc_ht=scontent.cdninstagram.com'} />
-    <InstaImage imgLink={'https://scontent.cdninstagram.com/vp/446c26c8ba2b999a993fe670121bf13d/5E201EA5/t51.2885-15/e35/s320x320/45865107_1979882968744501_4231680440095908899_n.jpg?_nc_ht=scontent.cdninstagram.com'} />
-    <InstaImage imgLink={'https://scontent.cdninstagram.com/vp/bbeec62534e5acb0b0f3270c7a948fdb/5E3B2197/t51.2885-15/e35/s320x320/49339191_1994942460808272_5704553914134631578_n.jpg?_nc_ht=scontent.cdninstagram.com'} />
-    <InstaImage imgLink={'https://scontent.cdninstagram.com/vp/d8f7a469684c9f63f50a253ce0577891/5E278CF0/t51.2885-15/e35/s320x320/44871210_1924791270970699_6005580241049818231_n.jpg?_nc_ht=scontent.cdninstagram.com'} />
-    <InstaImage imgLink={'https://scontent.cdninstagram.com/vp/03fcb12727776ae3a2fa7f99e6f50209/5E397E10/t51.2885-15/e35/p320x320/44871200_273605613346999_4860924657108686408_n.jpg?_nc_ht=scontent.cdninstagram.com'} />
+  <div id="sbi_images">
+    <InstaImage style={{ gridColumn: 1, gridRow: 1 }} imgLink={'https://scontent.cdninstagram.com/vp/adab2097d315b0231874874d22fe1c79/5E22BF36/t51.2885-15/e35/s320x320/51880722_547241645759490_4445104620470738808_n.jpg?_nc_ht=scontent.cdninstagram.com'} />
+    <InstaImage style={{ gridColumn: 2, gridRow: 1 }} imgLink={'https://scontent.cdninstagram.com/vp/0fb42d576bdb91f3f07ff7ec9c4b1835/5E37EAE8/t51.2885-15/e35/p320x320/50909192_257831831781164_4960194446628595626_n.jpg?_nc_ht=scontent.cdninstagram.com'} />
+    <InstaImage style={{ gridColumn: 3, gridRow: 1 }} imgLink={'https://scontent.cdninstagram.com/vp/5589c732d39f5924b3391bfce7ffdf6a/5E37B97F/t51.2885-15/e35/s320x320/49492353_304458466870020_6723443648692197093_n.jpg?_nc_ht=scontent.cdninstagram.com'} />
+    <InstaImage style={{ gridColumn: 4, gridRow: 1 }} imgLink={'https://scontent.cdninstagram.com/vp/a6690212a41518f6045d4d3aea3d5e80/5E26ABDE/t51.2885-15/e35/s320x320/45857476_210907723154448_6156869855291699135_n.jpg?_nc_ht=scontent.cdninstagram.com'} />
+    <InstaImage style={{ gridColumn: 5, gridRow: 1 }} imgLink={'https://scontent.cdninstagram.com/vp/5c867f6ef09b2b50373d078b5be453fb/5E2FDCE9/t51.2885-15/e35/p320x320/49380789_370482100180577_628094579137821647_n.jpg?_nc_ht=scontent.cdninstagram.com'} />
+    <InstaImage style={{ gridColumn: 6, gridRow: 1 }} imgLink={'https://scontent.cdninstagram.com/vp/f03bf0fb75fc0763fc87b2cd86bd2db4/5E1C7511/t51.2885-15/e35/s320x320/47690203_782902575395131_888321466823278747_n.jpg?_nc_ht=scontent.cdninstagram.com'} />
+    <InstaImage style={{ gridColumn: 7, gridRow: 1 }} imgLink={'https://scontent.cdninstagram.com/vp/224ea372a69281b58a8afd30d80ee480/5E1E4EF0/t51.2885-15/e35/s320x320/47690527_330066334494247_6733645215720013800_n.jpg?_nc_ht=scontent.cdninstagram.com'} />
+    <InstaImage style={{ gridColumn: 1, gridRow: 2 }} imgLink={'https://scontent.cdninstagram.com/vp/c3a12509efff6b2471099cb1b0460b79/5E37B85B/t51.2885-15/e35/p320x320/46911439_1164307900405137_6137647825726054042_n.jpg?_nc_ht=scontent.cdninstagram.com'} />
+    <InstaImage style={{ gridColumn: 2, gridRow: 2 }} imgLink={'https://scontent.cdninstagram.com/vp/2f41412346364bf745ca012d5be89ff5/5E334368/t51.2885-15/e35/s320x320/46647879_385396728863426_1980037455888903992_n.jpg?_nc_ht=scontent.cdninstagram.com'} />
+    <InstaImage style={{ gridColumn: 3, gridRow: 2 }} imgLink={'https://scontent.cdninstagram.com/vp/71fb2b4cefad75b68335a115c61649b5/5E326E8F/t51.2885-15/e35/p320x320/47163228_306281893429060_6690633157207529460_n.jpg?_nc_ht=scontent.cdninstagram.com'} />
+    <InstaImage style={{ gridColumn: 4, gridRow: 2 }} imgLink={'https://scontent.cdninstagram.com/vp/446c26c8ba2b999a993fe670121bf13d/5E201EA5/t51.2885-15/e35/s320x320/45865107_1979882968744501_4231680440095908899_n.jpg?_nc_ht=scontent.cdninstagram.com'} />
+    <InstaImage style={{ gridColumn: 5, gridRow: 2 }} imgLink={'https://scontent.cdninstagram.com/vp/bbeec62534e5acb0b0f3270c7a948fdb/5E3B2197/t51.2885-15/e35/s320x320/49339191_1994942460808272_5704553914134631578_n.jpg?_nc_ht=scontent.cdninstagram.com'} />
+    <InstaImage style={{ gridColumn: 6, gridRow: 2 }} imgLink={'https://scontent.cdninstagram.com/vp/d8f7a469684c9f63f50a253ce0577891/5E278CF0/t51.2885-15/e35/s320x320/44871210_1924791270970699_6005580241049818231_n.jpg?_nc_ht=scontent.cdninstagram.com'} />
+    <InstaImage style={{ gridColumn: 7, gridRow: 2 }} imgLink={'https://scontent.cdninstagram.com/vp/03fcb12727776ae3a2fa7f99e6f50209/5E397E10/t51.2885-15/e35/p320x320/44871200_273605613346999_4860924657108686408_n.jpg?_nc_ht=scontent.cdninstagram.com'} />
   </div>
 )
 
