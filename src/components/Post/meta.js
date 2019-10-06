@@ -4,11 +4,8 @@ import React from "react"
 import Categories from "./categories"
 
 const PostMeta = ({ node }) => {
-  const monthNames = ["January", "February", "March", "April", "May", "June",
-    "July", "August", "September", "October", "November", "December"
-  ];
   const postDate = new Date(Date.parse(node.date));
-  const displayDate = `${monthNames[postDate.getMonth()]} ${postDate.getDate()}, ${postDate.getFullYear()}`;
+  const displayDate = `${postDate.toLocaleString('default', { month: 'long' })} ${postDate.getDate()}, ${postDate.getFullYear()}`;
   return (
     <div class="entry-meta">
       <span>Written by <Link to={`author/${node.author.slug}/`}>{node.author.name}</Link></span>
