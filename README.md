@@ -1,14 +1,18 @@
 ## Topaz and Sapphire TODO
 
-1. Get Insta posts loading
-1. Get front page images scaled
-1. Make logo and sidebar images dynamic (not hardcoded)
-1. Create page number nav component (at bottom of posts page)
+### Improve Gatsby
+1. Get different insta posts
+ - Statically
+ - Dynamically
 1. Create other pages
  - Categories
  - Tags
  - Author
-1. Etc: styling, making things dynamic, split out components, code cleaning
+1. Style insta posts to scale right
+1. Make logo and sidebar images dynamic (not hardcoded)
+1. Create page number nav component (at bottom of posts page)
+
+### Transfer from WP
 1. Move topazandsapphire to wordpress.com
 1. Get site running on Netlify
 1. Shut down EC2 instance
