@@ -45,7 +45,7 @@ const Layout = ({ children }) => {
       <Logo />
       <div id="main-content">
         <div className="container">
-          <section id="primary" class="content-area site-main" role="main">
+          <section id="primary" className="content-area site-main" role="main">
             {children}
           </section>
           <Sidebar />

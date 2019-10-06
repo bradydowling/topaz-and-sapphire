@@ -4,14 +4,15 @@ import PostHeader from "../components/post-header"
 import { graphql, Link } from "gatsby"
 
 const PostTags = ({ tags }) => (
-  <div className="post-tags">{tags.map((tag) => {
+  <div className="post-tags">{tags.map((tag, i) => {
     return (
-      <PostTag tag={tag} />
+      <PostTag tag={tag} key={i} />
     )
   })}</div>
 )
 
 const PostTag = ({ tag }) => (
+  // This currently throws a warning because this page isn't created yet
   <Link to={`tag/${tag.name}`}>#{tag.name}</Link>
 )
 
@@ -72,6 +73,7 @@ export const query = graphql`
             link
           }
           content
+          slug
         }
       }
     }

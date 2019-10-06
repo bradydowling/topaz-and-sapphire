@@ -7,7 +7,7 @@ const PostMeta = ({ node }) => {
   const postDate = new Date(Date.parse(node.date));
   const displayDate = `${postDate.toLocaleString('default', { month: 'long' })} ${postDate.getDate()}, ${postDate.getFullYear()}`;
   return (
-    <div class="entry-meta">
+    <div className="entry-meta">
       <span>Written by <Link to={`author/${node.author.slug}/`}>{node.author.name}</Link></span>
       <span> / </span>
       <Categories categories={node.categories} />

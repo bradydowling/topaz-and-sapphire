@@ -7,12 +7,12 @@ const formSubmit = (event) => {
 };
 
 const SearchFormWidget = () => (
-  <div class="blocks widgets search-widget">
-    <div class="wrapper">
-      <form class="block-form float-label search-form" method="get" action="http://topazandsapphire.com/">
-        <div class="form-group block">
-          <div style={{ position: "relative" }}><input type="text" id="search_widget" class="input" name="s" placeholder="Type your search..." /></div>
-          <button type="submit" class="searchbutton" onClick={e => formSubmit(e)}><i class="icon icon-search"></i></button>
+  <div className="blocks widgets search-widget">
+    <div className="wrapper">
+      <form className="block-form float-label search-form" method="get" action="http://topazandsapphire.com/">
+        <div className="form-group block">
+          <div style={{ position: "relative" }}><input type="text" id="search_widget" className="input" name="s" placeholder="Type your search..." /></div>
+          <button type="submit" className="searchbutton" onClick={e => formSubmit(e)}><i className="icon icon-search"></i></button>
         </div>
       </form>
     </div>
@@ -21,35 +21,35 @@ const SearchFormWidget = () => (
 
 
 const Sidebar = ({ siteTitle }) => (
-  <section id="sidebar" class="site-header">
-    <div id="widget-warrior_about_author-3" class="widget about_author">
-      <h4 class="widget-title">Hey Ya'll</h4>
-      <div class="blocks site-info">
-        <div class="info">
+  <section id="sidebar" className="site-header">
+    <div id="widget-warrior_about_author-3" className="widget about_author">
+      <h4 className="widget-title">Hey Ya'll</h4>
+      <div className="blocks site-info">
+        <div className="info">
           <p><img src="http://topazandsapphire.com/wp-content/uploads/2016/03/MG_7393.jpg" alt="" /></p>
           <p>Topaz &amp; Sapphire is a space for millennial women created by two sisters who believe that women can have great careers while also building inspiring home lives. T&amp;S celebrates career, culture, and living well. You are a gem, life is what refines you! </p>
         </div>
 
-        <div class="social">
-          <a href="https://www.facebook.com/topazandsapphire" target="_blank" rel="noopener noreferrer"><i class="icon icon-social-facebook"></i></a>
-          <a href="http://twitter.com/topaznsapphire" target="_blank" rel="noopener noreferrer"><i class="icon icon-social-twitter"></i></a>
-          <a href="http://instagram.com/topazandsapphire" target="_blank" rel="noopener noreferrer"><i class="icon icon-social-instagram"></i></a>
-          <a href="https://www.pinterest.com/topaznsapphire/" target="_blank" rel="noopener noreferrer"><i class="icon icon-social-pinterest"></i></a>
-          <a href="https://www.youtube.com/channel/UCs-9lAUt57xgGGHswy2Yn9A/feed" target="_blank" rel="noopener noreferrer"><i class="icon icon-social-youtube"></i></a>
-          <a href="https://vimeo.com/latishacatch" target="_blank" rel="noopener noreferrer"><i class="icon icon-social-vimeo"></i></a>
+        <div className="social">
+          <a href="https://www.facebook.com/topazandsapphire" target="_blank" rel="noopener noreferrer"><i className="icon icon-social-facebook"></i></a>
+          <a href="http://twitter.com/topaznsapphire" target="_blank" rel="noopener noreferrer"><i className="icon icon-social-twitter"></i></a>
+          <a href="http://instagram.com/topazandsapphire" target="_blank" rel="noopener noreferrer"><i className="icon icon-social-instagram"></i></a>
+          <a href="https://www.pinterest.com/topaznsapphire/" target="_blank" rel="noopener noreferrer"><i className="icon icon-social-pinterest"></i></a>
+          <a href="https://www.youtube.com/channel/UCs-9lAUt57xgGGHswy2Yn9A/feed" target="_blank" rel="noopener noreferrer"><i className="icon icon-social-youtube"></i></a>
+          <a href="https://vimeo.com/latishacatch" target="_blank" rel="noopener noreferrer"><i className="icon icon-social-vimeo"></i></a>
         </div>
       </div>
-    </div><div id="widget-search-4" class="widget widget_search">
+    </div><div id="widget-search-4" className="widget widget_search">
       <SearchFormWidget />
     </div>
-    <div id="widget-text-2" class="widget widget_text">
-      <div class="textwidget">
-        <iframe title="blog follow widget" src="https://bloglovin.com/v2/widget/follow?id=14377629" scrolling="no" class="bloglovin-widget-follow" style={{ border: "0px none", width: "100%", height: "254px" }}></iframe>
+    <div id="widget-text-2" className="widget widget_text">
+      <div className="textwidget">
+        <iframe title="blog follow widget" src="https://bloglovin.com/v2/widget/follow?id=14377629" scrolling="no" className="bloglovin-widget-follow" style={{ border: "0px none", width: "100%", height: "254px" }}></iframe>
       </div>
     </div>
-    <div id="widget-mc4wp_widget-3" class="widget widget_mc4wp_widget">
-      <h4 class="widget-title">Receive Our Monthly Newsletter!</h4>
-      <div id="mc4wp-form-1" class="form mc4wp-form">
+    <div id="widget-mc4wp_widget-3" className="widget widget_mc4wp_widget">
+      <h4 className="widget-title">Receive Our Monthly Newsletter!</h4>
+      <div id="mc4wp-form-1" className="form mc4wp-form">
         <form method="post">
           <p>
             <label>First Name:</label>
