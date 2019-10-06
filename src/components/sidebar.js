@@ -1,13 +1,18 @@
 import PropTypes from "prop-types"
 import React from "react"
 
+const formSubmit = (event) => {
+  console.log(event);
+  console.log('Needs to be implemented. Used to perform a search of Topaz and Sapphire');
+};
+
 const SearchFormWidget = () => (
   <div class="blocks widgets search-widget">
     <div class="wrapper">
       <form class="block-form float-label search-form" method="get" action="http://topazandsapphire.com/">
         <div class="form-group block">
-          <div style={{ position: "relative" }}><input type="text" id="search_widget" class="input" name="s" value="" placeholder="Type your search..." /></div>
-          <button type="submit" class="searchbutton" onclick="jQuery('#search-form').submit();"><i class="icon icon-search"></i></button>
+          <div style={{ position: "relative" }}><input type="text" id="search_widget" class="input" name="s" placeholder="Type your search..." /></div>
+          <button type="submit" class="searchbutton" onClick={e => formSubmit(e)}><i class="icon icon-search"></i></button>
         </div>
       </form>
     </div>
@@ -59,7 +64,7 @@ const Sidebar = ({ siteTitle }) => (
             <input type="submit" value="Subscribe" />
           </p>
           <p></p>
-          <div style={{ position: "absolute", left: "-5000px" }}><input type="text" name="_mc4wp_ho_1d0b8af00ede190f632e8ac13da9852f" value="" tabindex="-1" autocomplete="off" /></div>
+          <div style={{ position: "absolute", left: "-5000px" }}><input type="text" name="_mc4wp_ho_1d0b8af00ede190f632e8ac13da9852f" tabIndex="-1" autoComplete="off" /></div>
           <input type="hidden" name="_mc4wp_timestamp" value="1566261525" />
           <input type="hidden" name="_mc4wp_form_id" value="0" />
           <input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" />

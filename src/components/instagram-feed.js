@@ -45,6 +45,12 @@ const InstaImages = () => (
     <InstaImage />
     <InstaImage />
     <InstaImage />
+    <InstaImage />
+    <InstaImage />
+    <InstaImage />
+    <InstaImage />
+    <InstaImage />
+    <InstaImage />
   </div>
 )
 
