@@ -29,7 +29,7 @@ const InstaImage = () => (
         backgroundRepeat: "no-repeat",
         height: "127px"
       }}>
-        <img src="https://scontent.cdninstagram.com/vp/f715d6e4ed32cbcade8506da0f48a28f/5DE0C2E9/t51.2885-15/e35/p320x320/49380789_370482100180577_628094579137821647_n.jpg?_nc_ht=scontent.cdninstagram.com" alt="When you’re a freelancer or someone who works from home it’s important to get out of your PJs and venture off the couch once in a while. It’s amazing what a change of scenery can do for your productivity and creativity! We love this little #coffeeshop @sdamiani captured in #newyorknewyork! #wework #workfromhome #womenwhowork #career" style={{ display: "none" }} scale="0" width="200" height="200" />
+        <img src="https://scontent.cdninstagram.com/vp/f715d6e4ed32cbcade8506da0f48a28f/5DE0C2E9/t51.2885-15/e35/p320x320/49380789_370482100180577_628094579137821647_n.jpg?_nc_ht=scontent.cdninstagram.com" alt="When you’re a freelancer or someone who works from home it’s important to get out of your PJs and venture off the couch once in a while. It’s amazing what a change of scenery can do for your productivity and creativity! We love this little #coffeeshop @sdamiani captured in #newyorknewyork! #wework #workfromhome #womenwhowork #career" scale="0" width="200" height="200" />
       </a>
     </div>
   </div>
